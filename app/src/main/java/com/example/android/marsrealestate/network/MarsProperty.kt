@@ -45,7 +45,7 @@ data class MarsProperty(
 
     val displayPriceString
         get() = when (isRental) {
-            true -> "$"+price+"?month"
+            true -> "$"+price+"/month"
             false -> "$"+price
         }
 }
